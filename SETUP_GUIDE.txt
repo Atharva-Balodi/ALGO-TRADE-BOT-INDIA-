@@ -7,7 +7,7 @@ A complete, production-ready algorithmic trading system for the NSE NIFTY 50 ind
 ## 📁 Project Structure
 
 ```
-3ed/
+ALGO-Trader/
 ├── algo_trader.py          # Main trading engine (850+ lines)
 ├── config.py               # Configuration parameters
 ├── utils.py                # Utility functions and helpers
@@ -22,7 +22,7 @@ A complete, production-ready algorithmic trading system for the NSE NIFTY 50 ind
 
 ### Step 1: Install Dependencies
 ```bash
-cd "3ed"
+cd "YOUR FILE"
 pip install -r requirements.txt
 ```
 
@@ -283,6 +283,4 @@ For issues:
 
 ---
 
-**Happy Trading! 📈**
-
-Built with ❤️ for algorithmic traders
+Built with LUV for algorithmic traders
