@@ -42,7 +42,7 @@ A sophisticated algorithmic trading system for the NSE NIFTY 50 index with advan
 
 1. **Clone or download the project**
 ```bash
-cd "3ed"
+cd "ALGO-TRADE-BOT-INDIA"
 ```
 
 2. **Install dependencies**
