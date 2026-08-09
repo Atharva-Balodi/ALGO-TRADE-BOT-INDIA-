@@ -1,5 +1,5 @@
 """
-Configuration file for NIFTY 50 Algo Trader
+Config file for Algo Trader
 """
 
 # Trading Parameters
