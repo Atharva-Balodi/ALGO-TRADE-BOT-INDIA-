@@ -1,7 +1,8 @@
 """
-NSE NIFTY 50 Algorithmic Trading System
-A comprehensive algo trader with backtesting, strategy optimization, and real-time trading capabilities.
+NOTE :-> for backtesting only the full trading bot will take time bro
 """
+
+""" For some dumbass people, use it in terminal not in VS code or something """
 
 import numpy as np
 import pandas as pd
@@ -22,6 +23,7 @@ class Signal(Enum):
     SELL = -1
     HOLD = 0
 
+""" code output can be 1,-1,0"""
 
 class OrderType(Enum):
     """Order execution types"""
@@ -39,6 +41,7 @@ class Position:
     position_type: str  # 'LONG' or 'SHORT'
     entry_signal: Signal
 
+""" data set can be retrived from dhan api or trading view """"
 
 @dataclass
 class Trade:
@@ -370,7 +373,7 @@ class AlgoTrader:
         return self.generate_backtest_report()
     
     def generate_backtest_report(self) -> Dict:
-        """Generate comprehensive backtest report"""
+        """Generates a comprehensive backtest report"""
         
         if not self.completed_trades:
             return {
